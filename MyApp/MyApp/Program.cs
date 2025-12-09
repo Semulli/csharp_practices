@@ -6,6 +6,9 @@ namespace MyApp
     {
         public static void Main(string[] args)
         {
+            Person person1 = new Person();
+            person1.TcNo = "12345678987";
+            Console.WriteLine("tc number is " + person1.TcNo);
         }
     }
 }
